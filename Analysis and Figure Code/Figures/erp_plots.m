@@ -1,4 +1,4 @@
-
+% use the 'Electrode LUT.pdf' look-up table to correctly cluster the electrodes
 
 % clustering PO3-PO7 and PO4-PO8
 figure()
