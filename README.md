@@ -4,7 +4,7 @@ This repository contains the data and code supporting [our study](https://doi.or
 
 ## Data Availability
 
-The repository contains raw and processed behavioral and EEG data, as well as codes for reproducing the analysis and figures presented in the manuscript.
+The repository contains raw and processed behavioral and EEG data, experiment codes, as well as codes for reproducing the analysis and figures presented in the manuscript.
 
 The large raw EEG dataset (~15GB) is hosted on Zenodo and can be accessed [here](https://zenodo.org/records/15760254?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI5NzJjOTEzLTcxYzktNDA4Yi1hNWMxLWRhMjNkYjZmYjc3NyIsImRhdGEiOnt9LCJyYW5kb20iOiJhZmQ4MDk4YjhhNGZlNDkwNjZmYTAxMzUyYTEwNWQxNCJ9.EVZYVusG13sobDPLrsXtcXLnOE15UoN18MKLwTMvDMAHsrv3nG9Z-BOnxcxvpwfHXBxYDywu2Ud8SFHaKikVDQ).
 
