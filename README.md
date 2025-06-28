@@ -1,10 +1,14 @@
 # MaskedFacePerception
 
+This repository contains the data and code supporting [our study](https://doi.org/10.48550/arXiv.2303.06031) on the neural correlates of masked face perception across levels of face familiarity. 
+
 ## Data Availability
 
-The large EEG dataset (~15GB) is hosted on Zenodo and can be accessed [here]().
+The repository contains raw and processed behavioral and EEG data, as well as codes for reproducing the analysis and figures presented in the manuscript.
 
-Smaller EEG data subfolders and code are available directly in this repository.
+The large raw EEG dataset (~15GB) is hosted on Zenodo and can be accessed [here](https://zenodo.org/records/15760254?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI5NzJjOTEzLTcxYzktNDA4Yi1hNWMxLWRhMjNkYjZmYjc3NyIsImRhdGEiOnt9LCJyYW5kb20iOiJhZmQ4MDk4YjhhNGZlNDkwNjZmYTAxMzUyYTEwNWQxNCJ9.EVZYVusG13sobDPLrsXtcXLnOE15UoN18MKLwTMvDMAHsrv3nG9Z-BOnxcxvpwfHXBxYDywu2Ud8SFHaKikVDQ).
+
+The processed EEG data and the behavioral data can be found here.
 
 ---
 
@@ -33,4 +37,7 @@ MaskedFacePerception/
 ## License
 
 This dataset/code is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb/edu](mailto:srijita@ucsb.edu).
+
 
