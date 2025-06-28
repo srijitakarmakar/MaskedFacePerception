@@ -46,11 +46,11 @@ Karmakar, S., & Das, K. (2023). Investigating the role of visual experience with
 
 - **Code and analysis scripts:**  
   [![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15765138)  
-  Please cite this DOI for the code and repository.
+  Please cite this DOI for the GitHub repository.
 
 - **Dataset:**  
   [![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15760253)  
-  Please cite this DOI for the dataset.
+  Please cite this DOI for the raw EEG dataset.
 
 
 If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb.edu](mailto:srijita@ucsb.edu).
