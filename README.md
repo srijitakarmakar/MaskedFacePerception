@@ -1,6 +1,6 @@
 # MaskedFacePerception
 
-This repository contains the data and code supporting [our study](https://doi.org/10.48550/arXiv.2303.06031) on the neural correlates of masked face perception across levels of face familiarity. 
+This repository hosts the data and code supporting [our study](https://doi.org/10.48550/arXiv.2303.06031) on the neural correlates of masked face perception across levels of face familiarity. 
 
 ## Data Availability
 
