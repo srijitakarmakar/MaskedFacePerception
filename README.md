@@ -25,6 +25,7 @@ MaskedFacePerception/
 │   └── Raw Data/  (hosted on Zenodo)
 ├── Experiment Code/
 ├── README.md
+├── LICENSE.md
 └── .gitignore
 ```
 
