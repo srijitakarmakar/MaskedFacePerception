@@ -38,6 +38,6 @@ MaskedFacePerception/
 
 This dataset/code is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb/edu](mailto:srijita@ucsb.edu).
+If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb.edu](mailto:srijita@ucsb.edu).
 
 
