@@ -1,7 +1,5 @@
 # MaskedFacePerception
 
-[![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15765138)
-
 This repository contains the data and code supporting [our study](https://doi.org/10.48550/arXiv.2303.06031) on the neural correlates of masked face perception across levels of face familiarity. 
 
 ## Data Availability
