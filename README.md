@@ -38,9 +38,19 @@ MaskedFacePerception/
 
 This dataset/code is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-If you use this dataset or code in your research, please cite the following paper:
+If you use this dataset or code in your research, please cite the following:
 
 Karmakar, S., & Das, K. (2023). Investigating the role of visual experience with face-masks in face recognition during COVID-19 (Version 1). arXiv. [(preprint)](https://doi.org/10.48550/ARXIV.2303.06031)
+
+## DOIs
+
+- **Code and analysis scripts:**  
+  [![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15765138)  
+  Please cite this DOI for the code and repository.
+
+- **Dataset:**  
+  [![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15760253)  
+  Please cite this DOI for the dataset.
 
 
 If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb.edu](mailto:srijita@ucsb.edu).
