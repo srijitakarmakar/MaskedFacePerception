@@ -1,5 +1,5 @@
-%stats %
-%2way repeated measures anova
+% stats %
+%  2-way repeated measures anova: for PA, RT, FP, d', and criterion measures
 
 % load 'Reaction Time.mat';
 % Y=cat_mask_RT(:);
