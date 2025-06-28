@@ -8,10 +8,6 @@ Smaller EEG data subfolders and code are available directly in this repository.
 
 ---
 
-## License
-
-[Add your license details here]
-
 ## Folder Structure
 
 ```
@@ -31,3 +27,9 @@ MaskedFacePerception/
 ├── README.md
 └── .gitignore
 ```
+
+
+## License
+
+This dataset/code is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
