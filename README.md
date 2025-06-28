@@ -40,7 +40,7 @@ This dataset/code is licensed under the [Creative Commons Attribution 4.0 Intern
 
 If you use this dataset or code in your research, please cite the following paper:
 
-Karmakar, S., & Das, K. (2023). Investigating the role of visual experience with face-masks in face recognition during COVID-19 (Version 1). arXiv. [(preprint)](https://arxiv.org/abs/XXXX.XXXXX)
+Karmakar, S., & Das, K. (2023). Investigating the role of visual experience with face-masks in face recognition during COVID-19 (Version 1). arXiv. [(preprint)](https://doi.org/10.48550/ARXIV.2303.06031)
 
 
 If you have any questions or would like to collaborate, feel free to reach out to me at [srijita@ucsb.edu](mailto:srijita@ucsb.edu).
