@@ -17,15 +17,16 @@ Smaller EEG data subfolders and code are available directly in this repository.
 ```
 MaskedFacePerception/
 ├── Analysis and Figure Code/
-│   ├── EEG Analysis/
-│   └── Behavior Analysis/
+│   ├── Behavior Analysis/
+│   └── EEG Analysis/
+    └── Figures/
 ├── Behavioral Data/
-│   ├── Raw Data/
-│   └── Processed Data/
+│   ├── Behavioral Measures/
+│   └── Raw Data/
 ├── EEG Data/
-│   ├── SmallSubfolder1/
-│   ├── SmallSubfolder2/
-│   └── LargeSubfolder/  (hosted on Zenodo)
+│   ├── All Trials/
+│   ├── Task Trials/
+│   └── Raw Data/  (hosted on Zenodo)
 ├── Experiment Code/
 ├── README.md
 └── .gitignore
