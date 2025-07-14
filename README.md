@@ -6,7 +6,7 @@ This repository hosts the data and code supporting [our study](https://doi.org/1
 
 The repository contains raw and processed behavioral and EEG data, experiment codes, as well as codes for reproducing the analysis and figures presented in the manuscript.
 
-The large raw EEG dataset (~15GB) is hosted on Zenodo and can be accessed [here](https://zenodo.org/records/15760254?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjI5NzJjOTEzLTcxYzktNDA4Yi1hNWMxLWRhMjNkYjZmYjc3NyIsImRhdGEiOnt9LCJyYW5kb20iOiJhZmQ4MDk4YjhhNGZlNDkwNjZmYTAxMzUyYTEwNWQxNCJ9.EVZYVusG13sobDPLrsXtcXLnOE15UoN18MKLwTMvDMAHsrv3nG9Z-BOnxcxvpwfHXBxYDywu2Ud8SFHaKikVDQ).
+The large raw EEG dataset (~15GB) is hosted on Zenodo and can be accessed [here](https://doi.org/10.5281/zenodo.15760254).
 
 The processed EEG data and the behavioral data can be found here.
 
@@ -44,11 +44,11 @@ Karmakar, S., & Das, K. (2023). Investigating the role of visual experience with
 
 ## DOIs
 
-- **Code and analysis scripts:**  
+- **Behavioral data, code, and analysis scripts:**  
   [![DOI](https://zenodo.org/badge/1009900923.svg)](https://doi.org/10.5281/zenodo.15765138)  
   Please cite this DOI for the GitHub repository.
 
-- **Dataset:**  
+- **Raw EEG Dataset:**  
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15760254.svg)](https://doi.org/10.5281/zenodo.15760254)
   Please cite this DOI for the raw EEG dataset.
 
