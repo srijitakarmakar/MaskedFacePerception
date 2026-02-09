@@ -1,6 +1,6 @@
 %one-way rm anova stat, using function RMAOV1(X,alpha)
 load 'N250_both.mat'
-y = erpvalues;
+y = erpval;
 [n,c2] = size(y);
 
 %column numbers for categories tested using one-way anova
@@ -19,4 +19,5 @@ X = horzcat(Y,IV,S);
 alpha = 0.05;
 
 RMAOV1(X,alpha);
+
 
