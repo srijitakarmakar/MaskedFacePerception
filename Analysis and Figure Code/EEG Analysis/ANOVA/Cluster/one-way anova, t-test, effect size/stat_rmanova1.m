@@ -1,6 +1,5 @@
 %one-way rm anova stat, using function RMAOV1(X,alpha)
 load 'N250_both.mat'
-%removing NaN valued subjects
 y = erpvalues;
 [n,c2] = size(y);
 
@@ -20,3 +19,4 @@ X = horzcat(Y,IV,S);
 alpha = 0.05;
 
 RMAOV1(X,alpha);
+
