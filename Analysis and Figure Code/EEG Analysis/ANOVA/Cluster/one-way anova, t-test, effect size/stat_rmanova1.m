@@ -1,14 +1,7 @@
 %one-way rm anova stat, using function RMAOV1(X,alpha)
-%load 'N250_PO8_correct_task_rejected.mat'
-load 'N250_cluster_10_correct_task_rejected.mat'
+load 'N250_both.mat'
 %removing NaN valued subjects
-y = erp_values;
-N = 20;
-a = isnan(y);
-f = find(a==1);
-[r,c1]=ind2sub([N,6],f);
-y_copy = y;
-y(r,:)=[];
+y = erpvalues;
 [n,c2] = size(y);
 
 %column numbers for categories tested using one-way anova
@@ -25,4 +18,5 @@ IV = [ones(n,1); 2*ones(n,1)]; % independent variable for UM vs M
 
 X = horzcat(Y,IV,S);
 alpha = 0.05;
+
 RMAOV1(X,alpha);
