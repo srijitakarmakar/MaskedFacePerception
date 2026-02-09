@@ -1,8 +1,8 @@
 %Biases = rand(20,2*3*2); % subjects, Hemi*Mask*Fam
 load('N250_left.mat') % left
-A = erp_values;
+A = erpval;
 load('N250_right.mat') % right
-B = erp_values;
+B = erpval;
 erpval = horzcat(A,B);
 [n,c2] = size(erpval);
 
@@ -94,3 +94,4 @@ rm = fitrm(tbiases,'V1-V12~1','WithinDesign',withins4); % overal fit
 Mrm11 = multcompare(rm,'Hemi_Mask','By','Familiarity');
 
 Mrm12 = multcompare(rm,'Familiarity','By','Hemi_Mask');
+
