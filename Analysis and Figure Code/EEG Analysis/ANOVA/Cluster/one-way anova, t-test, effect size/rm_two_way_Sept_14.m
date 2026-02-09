@@ -1,13 +1,11 @@
 % two-way anova with hemisphere as a factor: Sept 14 2022
 
 load('N250_left.mat') % left hemisphere
-erpval = erp_values;
 [n,c2] = size(erpval);
 data_left = erpval(:,[1 4]); % famous
 %data_left = erpval(:,[2 5]); % familiar
 
 load('N250_right.mat') % right hemisphere
-erpval = erp_values;
 [m,c4] = size(erpval);
 data_right = erpval(:,[1 4]);
 %data_right = erpval(:,[2 5]); % familiar
@@ -42,3 +40,4 @@ rm = fitrm(tbiases,'V1-V4~1','WithinDesign',within);
 Mrm1 = multcompare(rm,'Hemi','By','Mask','ComparisonType','hsd');
 
 Mrm2 = multcompare(rm,'Mask','By','Hemi','ComparisonType','hsd');
+
