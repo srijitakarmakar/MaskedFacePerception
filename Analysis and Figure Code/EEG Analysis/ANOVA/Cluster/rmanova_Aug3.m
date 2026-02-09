@@ -1,12 +1,6 @@
 %erpval = zeros(20,3*2); % 3 familiarity, 2 mask
-load('N250_cluster_10_correct_task_rejected.mat')
+load('N250_both.mat')
 erpval = erp_values;
-N = 20;
-a = isnan(erpval);
-f = find(a==1);
-[r,c1]=ind2sub([N,6],f);
-y_copy = erpval;
-erpval(r,:)=[];
 [n,c2] = size(erpval);
 
 varNames = cell(3*2,1);
@@ -38,3 +32,4 @@ rm = fitrm(tbiases,'V1-V6~1','WithinDesign',within);
 
 Mrm1 = multcompare(rm,'Familiarity','By','Mask','ComparisonType','hsd');
 Mrm2 = multcompare(rm,'Mask','By','Familiarity','ComparisonType','hsd');
+
