@@ -1,17 +1,9 @@
 % mdodified t-statistic with median absolute deviation as an estimate of SD
 % permutation testing to get distribution
 
-load 'N250_PO4_correct_task.mat'
+load 'N250_both.mat'
 y = erp_values(:,[2 5]); % cols to be tested
 
-% removing NaN containing subjects
-N = 20;
-a = isnan(y);
-f = find(a==1);
-%[r,c1]=ind2sub([N,6],f);
-[r,c1]=ind2sub([N,2],f);
-y_copy = y;
-y(r,:)=[];
 X1 = y(:,1);
 X2 = y(:,2);
 [n1,~] = size(X1);
@@ -56,4 +48,5 @@ end
 %dist(1)=[];
 histogram(dist)
 %[h,p,ci,stats] = ttest(X1,X2);
+
 pval = flag/iter % p-value corresponding to the null hypothesis
