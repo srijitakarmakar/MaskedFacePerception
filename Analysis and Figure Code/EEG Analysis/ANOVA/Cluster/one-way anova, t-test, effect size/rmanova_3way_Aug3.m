@@ -1,15 +1,9 @@
 %Biases = rand(20,2*3*2); % subjects, Hemi*Mask*Fam
-load('N250_cluster_1_correct_task_rejected.mat') % left
+load('N250_left.mat') % left
 A = erp_values;
-load('N250_cluster_2_correct_task_rejected.mat') % right
+load('N250_right.mat') % right
 B = erp_values;
 erpval = horzcat(A,B);
-N = 20;
-a = isnan(erpval);
-f = find(a==1);
-[r,c1]=ind2sub([N,6],f);
-y_copy = erpval;
-erpval(r,:)=[];
 [n,c2] = size(erpval);
 
 varNames = cell(2*3*2,1);
@@ -66,4 +60,5 @@ rm = fitrm(tbiases,'V1-V12~1','WithinDesign',withins2); % overal fit
  
 %Mrm4 = multcompare(rm,'HRs','By','ObstaclePos');
 Mrm4 = multcompare(rm,'Fam_Mask','By','Hemi');
+
 Mrm6 = multcompare(rm,'Hemi','By','Fam_Mask');
