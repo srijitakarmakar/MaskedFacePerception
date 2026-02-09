@@ -2,7 +2,7 @@
 % permutation testing to get distribution
 
 load 'N250_both.mat'
-y = erp_values(:,[2 5]); % cols to be tested
+y = erpvalues(:,[2 5]); % cols to be tested
 
 X1 = y(:,1);
 X2 = y(:,2);
@@ -50,3 +50,4 @@ histogram(dist)
 %[h,p,ci,stats] = ttest(X1,X2);
 
 pval = flag/iter % p-value corresponding to the null hypothesis
+
